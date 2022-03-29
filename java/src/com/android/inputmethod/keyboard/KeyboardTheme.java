@@ -39,6 +39,7 @@ public final class KeyboardTheme implements Comparable<KeyboardTheme> {
     // These should be aligned with Keyboard.themeId and Keyboard.Case.keyboardTheme
     // attributes' values in attrs.xml.
     public static final int THEME_ID_ICS = 0;
+    public static final int THEME_ID_GB = 1;
     public static final int THEME_ID_KLP = 2;
     public static final int THEME_ID_LXX_LIGHT = 3;
     public static final int THEME_ID_LXX_DARK = 4;
@@ -66,6 +67,8 @@ public final class KeyboardTheme implements Comparable<KeyboardTheme> {
                 Build.VERSION_CODES.Q),
         new KeyboardTheme(THEME_ID_YOU, "You", R.style.KeyboardTheme_You,
                 Build.VERSION_CODES.S_V2),
+        new KeyboardTheme(THEME_ID_GB, "GB", R.style.KeyboardTheme_GB,
+		VERSION_CODES.BASE)
     };
 
     static {

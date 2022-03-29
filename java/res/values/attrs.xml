@@ -237,6 +237,7 @@
             <!-- This should be aligned with
                  {@link com.android.inputmethod.keyboard.KeyboardTheme#THEME_ID_ICS} etc. -->
             <enum name="ICS" value="0" />
+            <enum name="GB" value="1" />
             <enum name="KLP" value="2" />
             <enum name="LXXLight" value="3" />
             <enum name="LXXDark" value="4" />
