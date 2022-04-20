@@ -222,6 +222,16 @@
                 latin:backgroundType="action"
                 latin:parentStyle="navigateMoreKeysStyle" />
         </case>
+        <!-- keyboardTheme="You" -->
+        <case latin:keyboardTheme="You">
+            <key-style
+                latin:styleName="defaultEnterKeyStyle"
+                latin:keySpec="!icon/enter_key|!code/key_enter"
+                latin:keyLabelFlags="preserveCase|autoXScale|followKeyLabelRatio|followFunctionalTextColor"
+                latin:keyActionFlags="noKeyPreview"
+                latin:backgroundType="functional"
+                latin:parentStyle="navigateMoreKeysStyle" />
+        </case>
         <!-- keyboardTheme="LXXLight|LXXDark" -->
         <default>
             <key-style
@@ -249,6 +259,7 @@
              This <case> should be after Shift + Enter <case> and before any of action <case>. -->
         <case
             latin:mode="im"
+            latin:languageSwitchKeyEnabled="true"
         >
             <key-style
                 latin:styleName="enterKeyStyle"
